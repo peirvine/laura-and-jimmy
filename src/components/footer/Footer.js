@@ -1,7 +1,7 @@
 import React from 'react';
-import Image from 'react-bootstrap/Image'
+// import Image from 'react-bootstrap/Image'
 
-import er from '../../images/ellenandroblogo.png'
+// import er from '../../images/ellenandroblogo.png'
 
 import './Footer.scss';
 

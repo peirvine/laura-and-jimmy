@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
+  // Link,
 } from "react-router-dom";
 import { Nav, Navbar } from 'react-bootstrap';
 
@@ -23,7 +23,7 @@ import Footer from './components/footer/Footer'
 import './index.scss';
 
 
-const trackingId = "G-M6CY7G07XG"
+// const trackingId = "G-M6CY7G07XG"
 // ReactGA.initialize(trackingId)
 // ReactGA.pageview(window.location.pathname + window.location.search);
 

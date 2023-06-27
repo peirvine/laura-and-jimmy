@@ -2,7 +2,7 @@ import React from "react"
 // import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox"
 
 
-import { photos } from "./PhotoList"
+// import { photos } from "./PhotoList"
 
 import "./Photos.scss"
 
