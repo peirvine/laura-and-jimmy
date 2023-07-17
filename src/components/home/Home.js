@@ -1,24 +1,13 @@
 import React from "react";
 
-// import Split from '../split/Split'
+import Registry from '../registry/Registry'
+import Faqs from '../faqs/FAQS'
 
 import "./Home.scss"
 
-import topimage from "../../images/homepageImage.jpg"
+import topimage from "../../images/coverPhoto.jpg"
 
 export default function Home() {
-  // const howWeMet= {
-  //   title: 'How We Met',
-  //   date: "January 2016",
-  //   body: "We met in Multivariable Calculus during freshman year of college. We often made the long walk back from West Bank to Super Block together and were competitive with our test scores. It was 1.5 years later that Rob asked Ellen on their first date to Giordano’s and the rest is history!",
-  // }
-
-  // const proposal= {
-  //   title: 'The Proposal',
-  //   date: "7.24.20",
-  //   body: "On a beautiful, sunny day at Lake Lizzie, Rob suggested they take a few pictures on the deck. With the tripod set up, Rob started recording and got down on one knee to ask Ellen to marry him. Ellen was surprised and through happy tears, she said yes! They were engaged, ready to start the next chapter of their lives together!",
-  // }
-
   return (
     <>
       <div className="homeImage">
@@ -39,11 +28,13 @@ export default function Home() {
             October 7, 2023
           </div>
           <div id="city">
-            Carver, MN
+            Camp Fire Minnesota<br />
+            Excelsior, MN
           </div>
+          <a href="https://jimmyandlaura.anrsvp.com/" target="_blank" rel="noreferrer"><button class="button">RSVP</button></a>
         </div>
-        {/* <Split {...howWeMet}/> */}
-        {/* <Split {...proposal}/> */}
+        <Registry />
+        <Faqs />
       </div>
       <div id="homeBottomImage" />
     </>
